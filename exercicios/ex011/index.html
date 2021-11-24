@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abri esse site em varios dispositivos diferentes ou simplesmente almente ou diminua o tamanho do sel navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+        <h1>reproduzindo aldio</h1>
+        <p>vamos aprender a reproduzir aldio em HTML5.</p>
+        <audio preload="" autoplay controls> 
+            <source src="midia/solodeguitarra.mp3" type="audio/mpeg">
+            <source src="midia/solodeguitarra.ogg" type="audio/ogg">
+            <source src="midia/solodeguitarra.wav" type="audio/wav">
+            <p>infelismente seu navegador nao consegue reproduzir o aldio. <a href="midia/solodeguitarra.mp3">clique aqui para fazer o download do arquivo mp3</a></p>
+        </audio>
+    </picture>
+</body>
+</html>
